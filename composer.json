@@ -1,0 +1,23 @@
+{
+    "name": "hsinlu/laravel-wechat",
+    "description": "wechat sdk for laravel 5.1",
+    "keywords": ["wechat", "laravel"],
+    "authors": [
+        {
+            "name": "hsinlu",
+            "email": "hsinlu@live.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hsin\\Wechat\\": "src/Hsin/Wechat"
+        },
+        "files": [
+            "src/Hsin/Wechat/helpers.php"
+        ]
+    }
+}
