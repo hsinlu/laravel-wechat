@@ -53,7 +53,7 @@ json_encode(['group' => [ 'id' => $groupid, 'name' => '我的家人' ],], JSON_U
 ## 安装
 ##### 使用composer安装
 ```bash
-composer require "hsinlu/wechat:dev-master"
+composer require "hsinlu/laravel-wechat"
 ```
 
 ##### 配置laravel项目

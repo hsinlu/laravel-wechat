@@ -10,7 +10,8 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "5.1.*"
+        "illuminate/support": "5.1.*",
+        "hsinlu/wechat": "^0.0.2"
     },
     "autoload": {
         "psr-4": {
